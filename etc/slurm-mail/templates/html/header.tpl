@@ -14,7 +14,8 @@
 </div>
 
 <div class="status-header">
-    <table width="100%" cellpadding="0" cellspacing="0" role="presentation" style="display: $SHOW_EMAIL_ICON;">
+    <div class="status-icon" style="display: $SHOW_EMAIL_ICON;">
+    <table width="100%" cellpadding="0" cellspacing="0" role="presentation">
         <tr>
         <td align="center">
             <img
@@ -26,5 +27,6 @@
         </td>
         </tr>
     </table>
+    </div>
     <div class="status-text">Notificación de Slurm</div>
 </div>
